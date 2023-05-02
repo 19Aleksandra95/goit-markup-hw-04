@@ -543,13 +543,19 @@ gap: 24px;
   margin-bottom: 280px;
 }
 
+/*=======COSTUMERS======*/
+
+.costumers-item{
+  width: calc((100% - 120px)/6);
+  height: 88px;
+}
+
 .costumers {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 264px;
   height;112px;
-  background: #f4f4f4;
   border-radius:4px;
   margin-bottom:8px; 
 }
