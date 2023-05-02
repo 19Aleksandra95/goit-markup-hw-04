@@ -543,7 +543,17 @@ gap: 24px;
   margin-bottom: 280px;
 }
 
+.costumers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height;112px;
+  background: #f4f4f4;
+  border-radius:4px;
+  margin-bottom:8px; 
+}
 
 .costumers-icon {
-  fill= #8e8f99;
+  fill: #8e8f99;
 }
