@@ -152,6 +152,7 @@ address {
       
   padding: 188px 0;
   max-width: 1440px;
+  height: 600px;
   margin-left:auto ;
   margin-right: auto;
   background-image: 
@@ -220,13 +221,12 @@ address {
    display: flex; 
    align-items: center;
   justify-content: center;
-  width: 264px;
+ 
   height: 112px;
   border-radius: 4px;
   background-color:#F4F4FD ;
   margin-bottom: 8px;
-  top: 0px;
-  left: 0px;
+
 }
 .features-container{
   display: flex;
@@ -383,6 +383,7 @@ address {
 .customer-icon{
   fill: currentColor;
 }
+
 .customer-list {
   display: flex;
   gap: 24px;
@@ -407,9 +408,14 @@ address {
   color: var(--icon-color);
 }
 .customer-list-link:hover,
-.customer-list-link:focus{
+.customer-list-link:focus {
   border-color: #404bbf; 
   color: #404bbf; 
+}
+
+.customer-icon:hover,
+.customer-icon:focus{
+  color: #404bbf;
 }
 .network-footer{
   display: flex;
